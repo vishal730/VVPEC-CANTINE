@@ -4,9 +4,16 @@ X = [[12,7],
     [4 ,5],
     [3 ,8]]
 
-result = [[0,0,0],
+result1 = [[0,0,0],
          [0,0,0]]
-
+result23 = [[0,0,0],
+         [0,0,0]]
+result45 = [[0,0,0],
+         [0,0,0]]
+result5 = [[0,0,0],
+         [0,0,0]]
+result6 = [[0,0,0],
+         [0,0,0]]
 # iterate through rows
 for i in range(len(X)):
    # iterate through columns
@@ -15,6 +22,22 @@ for i in range(len(X)):
 
 for r in result:
    print(r)
+
+
+for i in range(len(y)):
+   # iterate through columns
+   for j in range(len(X[0])):
+       result[j][i] = X[i][j]
+
+for rs in result:
+   print(rs)
+for is in range(len(z)):
+   # iterate through columns
+   for j in range(len(X[0])):
+       result[j][i] = X[i][j]
+
+for rss in result:
+   print(rss)
    
   
   
